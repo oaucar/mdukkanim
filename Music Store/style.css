@@ -1,0 +1,95 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: #E9ECEF;
+}
+.nav-bar{
+height: 6vh;
+background-color: rgb(38, 38, 38);
+display: flex;
+align-items: center;
+flex-direction: row;
+margin-bottom: 20px;
+}
+#mdukkanim {
+    color: rgb(184, 51, 51);
+    font-weight: bold;
+}
+#a-sayfa {
+    color: whitesmoke;
+}
+nav a {
+    color: whitesmoke;
+    padding: 0px 10px;
+    text-decoration: none;
+}
+nav a:hover {
+    color: rgb(180, 180, 180);
+    text-decoration: none;
+    transition: 0.2s;
+}
+.giris-yazisi {
+    text-align: center;
+   
+    color: tomato;
+}
+.md-hg {
+    margin-bottom: 10px;
+    padding: 15px 10%;
+}
+
+/* sbma= 'sitemizde bulunan müzik aletleri' */
+.sbma-li {
+    color: black;
+    max-width: fit-content;
+    text-align: center;
+    margin: auto;
+}
+.sbma {
+    color: rgb(182, 155, 2);
+}
+ul{
+    padding-left: 0px;
+}
+ul p {
+    width: fit-content;
+    margin: auto;
+}
+.btn {
+    height: 70px;
+    width: 100%;
+    align-items: center;
+}
+div a {
+    left: 10px;
+    padding: 10px 15px;
+    background-color: rgb(24, 103, 182);
+    text-decoration: none;
+    color: whitesmoke;
+    border-radius: 5px; 
+}
+div a:hover {
+    color: white;
+    text-decoration: none;
+    background-color: rgb(9, 88, 167);
+}
+.viz-mis{
+    color: goldenrod;
+}
+.hakkimizda {
+    text-align: center;
+    color: blueviolet;
+}
+.viz-mis-yazilar {
+    padding-left: 3%;
+    padding-right: 3%;
+}
+.btnCard {
+    width: fit-content;
+    background-color: grey;
+    height: auto;
+}
+.urunler-div {
+    margin-top: 30px;
+    margin-bottom: 40px;
+}
